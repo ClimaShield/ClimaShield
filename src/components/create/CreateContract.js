@@ -118,7 +118,7 @@ function CreateContract() {
   const handleCreate = async () => {
     try {
       setbtnloading(true);
-      const cid = await uploadImage();
+      const cid = "QmeMke67dNBZ9gi13SFycUT7JWWvo9UU9fmMfHSCiQ2Q8Y";
       console.log("cid: ", cid);
 
       console.log("Form Data: ", formData);
